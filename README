@@ -1,0 +1,14 @@
+Playfair Plus
+-------------
+by Daniel Lerps
+
+
+Small application which can encrypt and decrypt messages 
+with an enhanced playfair alphabet of 100 characters.
+
+The EncryptionEngine class is abstract and allows other 
+cryptographic implementations.
+
+Application can be started with the main(args) method and 
+takes 3 parameters. $1 the mode (--encryot or --decrypt),
+$2 the key and $3 the message.
